@@ -1,0 +1,59 @@
+#sfondo {
+  width: 100vw;
+  position: relative;
+}
+
+#contenitore {
+  position: absolute;
+  left: 10%;
+  top:100px;
+  width: 80vw;
+  background-color: powderblue;
+}
+
+#prima {
+  background: url("http://contropiano.org/img/2018/07/shangai.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#seconda {
+  background: url("http://www.radiomontecarlo.net/resizer/1050/-1/true/1539245417698.jpg--il_12_ottobre_1931_veniva_inaugurato_il__cristo_redentore__di_rio_de_janeiro.jpg?1539245418000");
+  background-size: cover;
+  background-position: center;
+}
+
+#terza {
+  background: url("https://cdn.getyourguide.com/img/tour_img-440052-148.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.città {
+  margin: auto;
+  margin-top: 50px;
+  width: 70vw;
+  height: 60vh;
+  margin-bottom: 50px;
+}
+
+.città :hover {
+  background: rgb(17, 166, 176);
+}
+
+.layover {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.testo {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%)
+}
